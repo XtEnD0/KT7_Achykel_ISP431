@@ -23,6 +23,8 @@ namespace MasterPol
         public MainWindow()
         {
             InitializeComponent();
+            Classes.manager.MainFrame = Mainframe;
+            Classes.manager.MainFrame.Navigate(new Pages.ListPage());
         }
     }
 }

@@ -5,15 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MasterPol"
         mc:Ignorable="d"
-        Title="Мастер Пол" Height="450" Width="800">
+        Title="Мастер Пол" Height="650" Width="1000">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="80" ></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Grid Background="#F4E8D3" Grid.Row="0">
-            
+            <Label Content="Мастер пол" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="27"></Label>
+            <Image Source="/res/Мастер пол.png" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,240,0" Height="65"/>
+
         </Grid>
+
+        <Frame Grid.Row="1"
+            x:Name="Mainframe" VerticalAlignment="Center" HorizontalAlignment="Center"></Frame>
         
     </Grid>
 </Window>
